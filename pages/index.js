@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useState } from "react";
+import AboutMe from "../components/AboutMe";
 import Navbar from "../components/Navbar";
 
 export default function Home() {
@@ -13,8 +14,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="dark:bg-gray-900">
-        <div className="px-2  min-h-screen max-w-2xl mx-auto">
+        <div className="px-2  min-h-screen max-w-5xl mx-auto">
           <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+          <AboutMe />
         </div>
       </main>
     </div>
