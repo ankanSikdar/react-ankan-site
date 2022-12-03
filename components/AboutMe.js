@@ -1,6 +1,11 @@
 import Image from "next/image";
 
+import android from "../public/assets/images/android.png";
 import ankan from "../public/assets/images/ankan.jpg";
+import dart from "../public/assets/images/dart.png";
+import flutter from "../public/assets/images/flutter.png";
+import js from "../public/assets/images/javascript.png";
+import react from "../public/assets/images/react.png";
 
 export default function AboutMe() {
   return (
@@ -25,6 +30,13 @@ export default function AboutMe() {
       <div className="text-xl text-gray-600 dark:text-gray-400 font-medium mt-2">
         <p>an App Developer from Kolkata, WB, India</p>
         <p>I specialize in building Flutter Apps</p>
+      </div>
+      <div className="my-10 flex justify-evenly">
+        <Image src={dart} alt="dart" />
+        <Image src={flutter} alt="flutter" />
+        <Image src={android} alt="android" />
+        <Image src={react} alt="react" />
+        <Image src={js} alt="javascript" />
       </div>
     </div>
   );
