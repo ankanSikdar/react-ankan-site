@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="description" content="Ankan's Portfolio Site" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="px-2 dark:bg-black">
+      <main className="px-2 dark:bg-gray-900">
         <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       </main>
     </div>
