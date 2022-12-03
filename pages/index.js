@@ -12,8 +12,11 @@ export default function Home() {
         <meta name="description" content="Ankan's Portfolio Site" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="px-2 dark:bg-gray-900">
-        <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+
+      <main className="dark:bg-gray-900">
+        <div className="px-2  min-h-screen max-w-2xl mx-auto">
+          <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+        </div>
       </main>
     </div>
   );
