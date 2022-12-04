@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
 import AboutMe from "../components/AboutMe";
+import Featured from "../components/Featured";
 import Navbar from "../components/Navbar";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <div className="px-2  min-h-screen max-w-5xl mx-auto">
           <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
           <AboutMe />
+          <Featured />
         </div>
       </main>
     </div>
