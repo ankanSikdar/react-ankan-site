@@ -1,6 +1,6 @@
 function FeaturedLinks() {
   return (
-    <div className="flex gap-4 justify-around mt-4">
+    <div className="flex flex-col items-center mt-4">
       <a
         href="https://github.com/ankanSikdar/flutter-wuphf-chat"
         target="_blank"
@@ -60,32 +60,28 @@ function FeaturedLinks() {
 export default function Featured() {
   return (
     <div className="mt-20 mx-2 pb-20">
-      <h1 className="text-center text-5xl md:text-6xl dark:text-white">
+      <h1 className="text-center text-5xl md:text-6xl dark:text-white mb-10">
         Featured Project
       </h1>
 
-      <div class="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-md overflow-hidden md:max-w-5xl mt-4">
+      <div class="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-300 overflow-hidden md:max-w-5xl mt-4">
         <div class="md:flex">
-          <div class="flex-grow">
-            {/* eslint-disable-next-line @next/next/no-img-element*/}
-            <img
-              class="h-48 w-full object-fill md:h-full md:w-50"
-              src="https://firebasestorage.googleapis.com/v0/b/ankan-dev-flutter.appspot.com/o/projects%2Ffeatured_project.png?alt=media&token=0cfbb7f9-b081-446b-b4e1-863f1bbceae9"
-              alt="Modern building architecture"
-            />
-          </div>
-          <div class="py-12 px-8 md:px-8">
-            <div class="uppercase tracking-wide text-2xl text-black dark:text-white font-semibold">
+          <div class="flex-col mb-8">
+            <div class="uppercase tracking-wide text-6xl text-white font-semibold text-center mt-8">
               Wuphf Chat
             </div>
+            <FeaturedLinks />
+          </div>
+
+          <div class="py-12 px-8 md:px-8 bg-gray-200 dark:bg-gray-700">
             <a
               href="#"
-              class="block mt-1 text-lg leading-tight font-medium text-gray-800 dark:text-gray-200 hover:underline"
+              class="block mt-1 text-xl leading-tight font-medium text-gray-800 dark:text-gray-200 hover:underline"
             >
               Wuphf Chat is a full fledged chatting application made with
               Flutter
             </a>
-            <ul className="list-disc ml-8 text-gray-600 dark:text-gray-400">
+            <ul className="list-disc ml-8 mt-3 text-gray-600 dark:text-gray-300 text-lg">
               <li>Open Source</li>
               <li>1 to 1 Chat</li>
               <li>Group Chat</li>
@@ -97,7 +93,6 @@ export default function Featured() {
           </div>
         </div>
       </div>
-      <FeaturedLinks />
     </div>
   );
 }
