@@ -3,6 +3,7 @@ import { useState } from "react";
 import AboutMe from "../components/AboutMe";
 import Featured from "../components/Featured";
 import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -19,6 +20,7 @@ export default function Home() {
           <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
           <AboutMe />
           <Featured />
+          <Projects />
         </div>
       </main>
     </div>
