@@ -1,3 +1,6 @@
+import Image from "next/image";
+import featuredImage from "../public/assets/images/featured.png";
+
 function FeaturedLinks() {
   return (
     <div className="flex flex-col items-center mt-4">
@@ -60,15 +63,24 @@ function FeaturedLinks() {
 export default function Featured() {
   return (
     <div className="mt-20 mx-2 pb-20">
-      <h1 className="text-center text-5xl md:text-6xl dark:text-white mb-10">
+      <h1 className="text-center text-5xl md:text-6xl dark:text-white mb-10 font-extrabold uppercase tracking-widest leading-snug">
         Featured Project
       </h1>
 
       <div class="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-300 overflow-hidden md:max-w-5xl mt-4">
         <div class="md:flex">
           <div class="flex-col mb-8">
-            <div class="uppercase tracking-wide text-6xl text-white font-semibold text-center mt-8">
-              Wuphf Chat
+            <div class="uppercase tracking-wide text-6xl text-white font-semibold mt-8 text-center">
+              <div className="flex items-center justify-center">
+                <Image
+                  src={featuredImage}
+                  alt="featured"
+                  height={100}
+                  width={100}
+                  className="ml-6 md:ml-8"
+                />
+                <div>Wuphf Chat</div>
+              </div>
             </div>
             <FeaturedLinks />
           </div>
