@@ -65,11 +65,31 @@ export default function Projects() {
       </div>
 
       <div className="flex gap-10 flex-wrap mx-2 md:mx-10">
-        <ProjectCard appName={"Shop App"} appImage={shopAppImage} />
-        <ProjectCard appName={"Favorite Places"} appImage={placesAppImage} />
-        <ProjectCard appName={"Drinks Wiki"} appImage={drinksAppImage} />
-        <ProjectCard appName={"Expense Tracker"} appImage={expenseAppImage} />
-        <ProjectCard appName={"Insta Clone"} appImage={instagramAppImage} />
+        <ProjectCard
+          appName={"Shop App"}
+          appImage={shopAppImage}
+          appUrl={"https://github.com/ankanSikdar/flutter-shop-app"}
+        />
+        <ProjectCard
+          appName={"Favorite Places"}
+          appImage={placesAppImage}
+          appUrl={"https://github.com/ankanSikdar/flutter-favorite-places"}
+        />
+        <ProjectCard
+          appName={"Drinks Wiki"}
+          appImage={drinksAppImage}
+          appUrl={"https://github.com/ankanSikdar/flutter-drinks-wiki"}
+        />
+        <ProjectCard
+          appName={"Expense Tracker"}
+          appImage={expenseAppImage}
+          appUrl={"https://github.com/ankanSikdar/flutter-expense-tracker"}
+        />
+        <ProjectCard
+          appName={"Insta Clone"}
+          appImage={instagramAppImage}
+          appUrl={"https://github.com/ankanSikdar/flutter-instagram"}
+        />
       </div>
     </div>
   );
