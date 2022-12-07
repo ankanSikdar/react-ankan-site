@@ -67,7 +67,7 @@ export default function Featured() {
         Featured Project
       </h1>
 
-      <div class="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-300 overflow-hidden md:max-w-5xl mt-4">
+      <div class="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-300 overflow-hidden md:max-w-5xl mt-4 border-2 border-gray-500">
         <div class="md:flex">
           <div class="flex-col mb-8">
             <div class="uppercase tracking-wide text-6xl text-white font-semibold mt-8 text-center">
@@ -85,7 +85,7 @@ export default function Featured() {
             <FeaturedLinks />
           </div>
 
-          <div class="py-12 px-8 md:px-8 bg-gray-200 dark:bg-gray-700">
+          <div class="py-12 px-8 md:px-8 bg-gray-200 dark:bg-gray-700 border-l-2 border-gray-500">
             <a
               href="#"
               class="block mt-1 text-xl leading-tight font-medium text-gray-800 dark:text-gray-200 hover:underline"
