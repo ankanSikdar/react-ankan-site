@@ -9,8 +9,8 @@ import Heading from "./Heading";
 function ProjectsLink({ gitHubUrl }) {
   return (
     <a href={gitHubUrl} target="_blank" rel="noreferrer">
-      <div class="flex mt-3 w-48 h-14 bg-[#24292F] text-white rounded-lg items-center justify-center cursor-pointer ">
-        <div class="mr-3">
+      <div className="flex mt-3 w-48 h-14 bg-[#24292F] text-white rounded-lg items-center justify-center cursor-pointer ">
+        <div className="mr-3">
           <svg viewBox="0 0 496 512" width="30">
             <path
               fill="currentColor"
@@ -19,8 +19,8 @@ function ProjectsLink({ gitHubUrl }) {
           </svg>
         </div>
         <div>
-          <div class="text-xs">VIEW SOURCE CODE</div>
-          <div class="text-xl font-semibold font-sans -mt-1">GitHub</div>
+          <div className="text-xs">VIEW SOURCE CODE</div>
+          <div className="text-xl font-semibold font-sans -mt-1">GitHub</div>
         </div>
       </div>
     </a>
@@ -29,10 +29,10 @@ function ProjectsLink({ gitHubUrl }) {
 
 function ProjectCard({ appImage, appName, appUrl }) {
   return (
-    <div class="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-200 border-2 border-gray-400 md:max-w-sm">
-      <div class="flex">
-        <div class="flex flex-col mb-8 items-center text-center px-10 py-4">
-          <div class="uppercase tracking-wide text-4xl md:text-4xl text-black dark:text-white font-semibold my-6 text-center">
+    <div className="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-200 border-2 border-gray-400 md:max-w-sm">
+      <div className="flex">
+        <div className="flex flex-col mb-8 items-center text-center px-10 py-4">
+          <div className="uppercase tracking-wide text-4xl md:text-4xl text-black dark:text-white font-semibold my-6 text-center">
             <div className="flex items-center justify-center gap-10 relative">
               <Image
                 src={appImage}

@@ -10,8 +10,8 @@ function FeaturedLinks() {
         target="_blank"
         rel="noreferrer"
       >
-        <div class="flex mt-3 w-48 h-14 bg-[#24292F] text-white rounded-lg items-center justify-center cursor-pointer ">
-          <div class="mr-3">
+        <div className="flex mt-3 w-48 h-14 bg-[#24292F] text-white rounded-lg items-center justify-center cursor-pointer ">
+          <div className="mr-3">
             <svg viewBox="0 0 496 512" width="30">
               <path
                 fill="currentColor"
@@ -20,8 +20,8 @@ function FeaturedLinks() {
             </svg>
           </div>
           <div>
-            <div class="text-xs">VIEW SOURCE CODE</div>
-            <div class="text-xl font-semibold font-sans -mt-1">GitHub</div>
+            <div className="text-xs">VIEW SOURCE CODE</div>
+            <div className="text-xl font-semibold font-sans -mt-1">GitHub</div>
           </div>
         </div>
       </a>
@@ -30,8 +30,8 @@ function FeaturedLinks() {
         target="_blank"
         rel="noreferrer"
       >
-        <div class="flex mt-3 w-48 h-14 bg-black text-white rounded-lg items-center justify-center cursor-pointer">
-          <div class="mr-3">
+        <div className="flex mt-3 w-48 h-14 bg-black text-white rounded-lg items-center justify-center cursor-pointer">
+          <div className="mr-3">
             <svg viewBox="30 336.7 120.9 129.2" width="30">
               <path
                 fill="#FFD400"
@@ -52,8 +52,10 @@ function FeaturedLinks() {
             </svg>
           </div>
           <div>
-            <div class="text-xs">GET IT ON</div>
-            <div class="text-xl font-semibold font-sans -mt-1">Google Play</div>
+            <div className="text-xs">GET IT ON</div>
+            <div className="text-xl font-semibold font-sans -mt-1">
+              Google Play
+            </div>
           </div>
         </div>
       </a>
@@ -66,10 +68,10 @@ export default function Featured() {
     <div className="mt-20 mx-2 pb-20">
       <Heading title={"Featured Project"} />
 
-      <div class="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-300 overflow-hidden md:max-w-5xl border-2 border-gray-500">
-        <div class="md:flex">
-          <div class="flex-col mb-8">
-            <div class="uppercase tracking-wide text-6xl text-white font-semibold mt-8 text-center">
+      <div className="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-300 overflow-hidden md:max-w-5xl border-2 border-gray-500">
+        <div className="md:flex">
+          <div className="flex-col mb-8">
+            <div className="uppercase tracking-wide text-6xl text-white font-semibold mt-8 text-center">
               <div className="flex items-center justify-center">
                 <Image
                   src={featuredImage}
@@ -84,10 +86,10 @@ export default function Featured() {
             <FeaturedLinks />
           </div>
 
-          <div class="py-12 px-8 md:px-8 bg-gray-200 dark:bg-gray-700 border-l-2 border-gray-500">
+          <div className="py-12 px-8 md:px-8 bg-gray-200 dark:bg-gray-700 border-l-2 border-gray-500">
             <a
               href="#"
-              class="block mt-1 text-xl leading-tight font-medium text-gray-800 dark:text-gray-200 hover:underline"
+              className="block mt-1 text-xl leading-tight font-medium text-gray-800 dark:text-gray-200 hover:underline"
             >
               Wuphf Chat is a full fledged chatting application made with
               Flutter
