@@ -9,7 +9,7 @@ import react from "../public/assets/images/react.png";
 
 export default function AboutMe() {
   return (
-    <div className="text-center text-black ">
+    <div className="text-center text-black mb-10">
       <div className="pt-10 mx-auto flex justify-center">
         <Image
           src={ankan}

@@ -4,6 +4,7 @@ import expenseAppImage from "../public/assets/images/expense-app.png";
 import instagramAppImage from "../public/assets/images/instagram-app.png";
 import placesAppImage from "../public/assets/images/places-app.png";
 import shopAppImage from "../public/assets/images/shop-app.png";
+import Heading from "./Heading";
 
 function ProjectsLink({ gitHubUrl }) {
   return (
@@ -58,11 +59,7 @@ function ProjectCard({ appImage, appName, appUrl }) {
 export default function Projects() {
   return (
     <div>
-      <div className="mt-20 mx-2 pb-20">
-        <h1 className="text-center text-5xl md:text-6xl dark:text-white mb-10 font-extrabold uppercase tracking-widest leading-snug">
-          Projects
-        </h1>
-      </div>
+      <Heading title={"Projects"} />
 
       <div className="flex gap-10 flex-wrap mx-2 md:mx-10">
         <ProjectCard

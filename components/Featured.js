@@ -1,5 +1,6 @@
 import Image from "next/image";
 import featuredImage from "../public/assets/images/featured.png";
+import Heading from "./Heading";
 
 function FeaturedLinks() {
   return (
@@ -63,11 +64,9 @@ function FeaturedLinks() {
 export default function Featured() {
   return (
     <div className="mt-20 mx-2 pb-20">
-      <h1 className="text-center text-5xl md:text-6xl dark:text-white mb-10 font-extrabold uppercase tracking-widest leading-snug">
-        Featured Project
-      </h1>
+      <Heading title={"Featured Project"} />
 
-      <div class="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-300 overflow-hidden md:max-w-5xl mt-4 border-2 border-gray-500">
+      <div class="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-300 overflow-hidden md:max-w-5xl border-2 border-gray-500">
         <div class="md:flex">
           <div class="flex-col mb-8">
             <div class="uppercase tracking-wide text-6xl text-white font-semibold mt-8 text-center">
