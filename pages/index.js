@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import AboutMe from "../components/AboutMe";
 import Featured from "../components/Featured";
+import FooterLinks from "../components/FooterLinks";
 import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
 
@@ -21,6 +22,7 @@ export default function Home() {
           <AboutMe />
           <Featured />
           <Projects />
+          <FooterLinks />
         </div>
       </main>
     </div>
