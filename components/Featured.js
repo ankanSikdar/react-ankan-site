@@ -84,7 +84,7 @@ export default function Featured() {
                   alt="featured"
                   height={100}
                   width={100}
-                  className="ml-6 md:ml-8"
+                  className="ml-6 md:ml-8 rounded-md p-2 border-4 border-gray-600 dark:border-gray-400 bg-gray-100 dark:bg-gray-900"
                 />
                 <div>Wuphf Chat</div>
               </div>

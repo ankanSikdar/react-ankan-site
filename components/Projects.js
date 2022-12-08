@@ -44,7 +44,7 @@ function ProjectCard({ appImage, appName, appUrl }) {
                 // height={120}
                 // width={120}
                 sizes={""}
-                className="w-24 h-24 rounded-md p-2"
+                className="w-24 h-24 rounded-md p-2 border-4 border-gray-400 bg-gray-100 dark:bg-gray-900"
               />
               <div className="">{appName}</div>
             </div>
