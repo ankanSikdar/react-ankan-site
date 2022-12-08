@@ -92,14 +92,11 @@ export default function Featured() {
             <FeaturedLinks />
           </div>
 
-          <div className="py-12 px-8 md:px-8 bg-gray-200 dark:bg-gray-700 border-l-2 border-gray-500">
-            <a
-              href="#"
-              className="block mt-1 text-xl leading-tight font-medium text-gray-800 dark:text-gray-200 hover:underline"
-            >
+          <div className="py-12 px-8 md:px-8 bg-gray-200 dark:bg-gray-700 md:border-l-2 border-gray-500">
+            <div className="block mt-1 text-xl leading-tight font-medium text-gray-800 dark:text-gray-200">
               Wuphf Chat is a full fledged chatting application made with
               Flutter
-            </a>
+            </div>
             <ul className="list-disc ml-8 mt-3 text-gray-600 dark:text-gray-300 text-lg">
               <li>Open Source</li>
               <li>1 to 1 Chat</li>
