@@ -74,7 +74,7 @@ export default function Featured() {
     <div className="mt-20 mx-2 pb-20">
       <Heading title={"Featured Project"} />
 
-      <div className="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-300 overflow-hidden md:max-w-5xl border-2 border-gray-500">
+      <div className="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-300 overflow-hidden md:max-w-5xl border-4 border-gray-500">
         <div className="md:flex">
           <div className="flex-col mb-8">
             <div className="uppercase tracking-wide text-6xl text-white font-semibold mt-8 text-center">

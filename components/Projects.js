@@ -31,7 +31,7 @@ function ProjectsLink({ gitHubUrl }) {
 
 function ProjectCard({ appImage, appName, appUrl }) {
   return (
-    <div className="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-200 border-2 border-gray-400 md:max-w-sm">
+    <div className="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-200 border-4 border-gray-400 md:max-w-sm">
       <div className="flex">
         <div className="flex flex-col mb-8 items-center text-center px-10 py-4">
           <div className="uppercase tracking-wide text-4xl md:text-4xl text-black dark:text-white font-semibold my-6 text-center">
