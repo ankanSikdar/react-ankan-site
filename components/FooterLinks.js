@@ -11,7 +11,7 @@ import Heading from "./Heading";
 export function SocialMediaLink({ link, children }) {
   return (
     <div className="p-8">
-      <div className="p-2 hover:ring-2 ring-gray-300  transition-all rounded-md">
+      <div className="p-2 hover:ring-4 ring-gray-300  transition-all rounded-md">
         <a
           href={link}
           className=" text-gray-700 dark:text-gray-200"
