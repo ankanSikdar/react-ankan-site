@@ -10,16 +10,18 @@ import react from "../public/assets/images/react.png";
 export default function AboutMe() {
   return (
     <div className="text-center text-black mb-10">
-      <div className="pt-10 mx-auto flex justify-center">
-        <Image
-          src={ankan}
-          alt="Ankan's Image"
-          height={176}
-          width={176}
-          sizes="30vw"
-          priority
-          className="rounded-full filter dark:grayscale"
-        />
+      <div className="pt-10 mx-auto flex justify-center ">
+        <div className="border-4 border-gray-400 dark:border-gray-200 rounded-full">
+          <Image
+            src={ankan}
+            alt="Ankan's Image"
+            height={282}
+            width={282}
+            sizes="30vw"
+            priority
+            className="rounded-full filter dark:grayscale "
+          />
+        </div>
       </div>
       <h1 className="text-4xl mt-10 dark:text-white font-bold">
         Hi I&apos;m Ankan 🤝🏽
