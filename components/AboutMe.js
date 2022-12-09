@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import { FaHandshake } from "react-icons/fa";
 import {
   SiAndroid,
   SiDart,
@@ -25,9 +26,10 @@ export default function AboutMe() {
           />
         </div>
       </div>
-      <h1 className="text-4xl mt-10 dark:text-white font-bold">
-        Hi I&apos;m Ankan 🤝🏽
-      </h1>
+      <div className="text-4xl mt-10 dark:text-white font-bold flex justify-center gap-4">
+        Hi I&apos;m Ankan{" "}
+        <FaHandshake className="w-10 md:w-16 text-orange-300 dark:text-amber-700  transform hover:translate-y-2 transition duration-300" />
+      </div>
       <p className="text-2xl mt-2 text-gray-800 dark:text-gray-200 font-semibold">
         Learning and Building Flutter Apps
       </p>
