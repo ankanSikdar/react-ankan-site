@@ -11,14 +11,14 @@ export default function Navbar({ isDarkMode, setIsDarkMode }) {
           <Image
             src={isDarkMode ? logo_dark : logo_light}
             alt="Logo Light Color"
-            width={180}
+            className="w-44 md:w-56"
           />
         </li>
         <li className="mr-3">
           <button
             aria-label="Toggle Dark Mode"
             type="button"
-            className="w-9 h-9 bg-gray-200 rounded-lg dark:bg-gray-600 flex items-center justify-center  hover:ring-4 ring-gray-300  transition-all hover:scale-110 md:hover:scale-125 duration-300"
+            className="w-9 h-9  md:w-12 md:h-12 bg-gray-200 rounded-lg dark:bg-gray-600 flex items-center justify-center  hover:ring-4 ring-gray-300  transition-all hover:scale-110 md:hover:scale-125 duration-300"
             onClick={() => setIsDarkMode(!isDarkMode)}
           >
             {
