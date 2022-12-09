@@ -1,11 +1,13 @@
 import Image from "next/image";
 
-import android from "../public/assets/images/android.png";
+import {
+  SiAndroid,
+  SiDart,
+  SiFlutter,
+  SiJavascript,
+  SiReact,
+} from "react-icons/si";
 import ankan from "../public/assets/images/ankan.jpg";
-import dart from "../public/assets/images/dart.png";
-import flutter from "../public/assets/images/flutter.png";
-import js from "../public/assets/images/javascript.png";
-import react from "../public/assets/images/react.png";
 
 export default function AboutMe() {
   return (
@@ -33,12 +35,12 @@ export default function AboutMe() {
         <p>an App Developer from Kolkata, WB, India</p>
         <p>I specialize in building Flutter Apps</p>
       </div>
-      <div className="my-10 flex justify-evenly">
-        <Image src={dart} alt="dart" />
-        <Image src={flutter} alt="flutter" />
-        <Image src={android} alt="android" />
-        <Image src={react} alt="react" />
-        <Image src={js} alt="javascript" />
+      <div className="flex justify-evenly mt-6 md:mt-20">
+        <SiDart className="text-sky-800 w-16 h-16 md:w-36 md:h-36" />
+        <SiFlutter className="text-sky-500 w-16 h-16 md:w-36 md:h-36" />
+        <SiAndroid className="text-green-500 w-16 h-16 md:w-36 md:h-36" />
+        <SiReact className="text-teal-500 w-16 h-16 md:w-36 md:h-36" />
+        <SiJavascript className="text-yellow-400 w-16 h-16 md:w-36 md:h-36" />
       </div>
     </div>
   );
