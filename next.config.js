@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
+  assetPrefix: "./",
   reactStrictMode: true,
   images: {
-    domains: ["firebasestorage.googleapis.com"],
+    unoptimized: true,
   },
 };
