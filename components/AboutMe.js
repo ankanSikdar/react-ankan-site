@@ -13,7 +13,7 @@ export default function AboutMe() {
   return (
     <div className="text-center text-black mb-10">
       <div className="pt-10 mx-auto flex justify-center ">
-        <div className="border-4 border-gray-400 dark:border-gray-200 rounded-full">
+        <div className="border-4 border-gray-400 dark:border-gray-200 rounded-full transform hover:scale-105 transition duration-300">
           <Image
             src={ankan}
             alt="Ankan's Image"

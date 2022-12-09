@@ -8,7 +8,7 @@ import Heading from "./Heading";
 
 function ProjectsLink({ gitHubUrl }) {
   return (
-    <div className="hover:ring-4 ring-gray-400  transition-all rounded-lg ">
+    <div className="hover:ring-4 ring-gray-400  transition-all hover:scale-110 md:hover:scale-125 duration-300 rounded-lg ">
       <a href={gitHubUrl} target="_blank" rel="noreferrer" className="">
         <div className="flex mt-3 w-48 h-14 bg-[#24292F] text-white rounded-lg items-center justify-center cursor-pointer ">
           <div className="mr-3">
@@ -31,7 +31,10 @@ function ProjectsLink({ gitHubUrl }) {
 
 function ProjectCard({ appImage, appName, appUrl }) {
   return (
-    <div className="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-200 border-4 border-gray-400 md:max-w-sm">
+    <div
+      className="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-200 border-4 border-gray-400 md:max-w-sm 
+    hover:scale-105 md:hover:scale-110 transition duration-300"
+    >
       <div className="flex">
         <div className="flex flex-col mb-8 items-center text-center px-10 py-4">
           <div className="uppercase tracking-wide text-4xl md:text-4xl text-black dark:text-white font-semibold my-6 text-center">

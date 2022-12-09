@@ -4,8 +4,8 @@ import Heading from "./Heading";
 
 function FeaturedLinks() {
   return (
-    <div className="flex flex-col items-center mt-4 ">
-      <div className="hover:ring-4 ring-gray-600 dark:ring-gray-400  transition-all rounded-lg mt-3 ">
+    <div className="flex flex-col items-center mt-6 gap-5">
+      <div className="hover:ring-4 ring-gray-600 dark:ring-gray-400  transition-all rounded-lg mt-3 hover:scale-110 md:hover:scale-125 duration-300">
         <a
           href="https://github.com/ankanSikdar/flutter-wuphf-chat"
           target="_blank"
@@ -29,7 +29,7 @@ function FeaturedLinks() {
           </div>
         </a>
       </div>
-      <div className="hover:ring-4 ring-gray-600 dark:ring-gray-400  transition-all rounded-lg mt-3 ">
+      <div className="hover:ring-4 ring-gray-600 dark:ring-gray-400  transition-all rounded-lg mt-3  hover:scale-110 md:hover:scale-125 duration-300">
         <a
           href="https://play.google.com/store/apps/details?id=dev.ankan.wuphf_chat"
           target="_blank"
@@ -74,7 +74,7 @@ export default function Featured() {
     <div className="mt-20 mx-2 pb-20">
       <Heading title={"Featured Project"} />
 
-      <div className="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-300 overflow-hidden md:max-w-5xl border-4 border-gray-500">
+      <div className="max-w-md mx-auto dark:bg-gray-800 rounded-xl shadow-lg bg-gray-300 overflow-hidden md:max-w-5xl border-4 border-gray-500 hover:scale-105 md:hover:scale-110 transition duration-300">
         <div className="md:flex">
           <div className="flex-col mb-8">
             <div className="uppercase tracking-wide text-6xl text-white font-semibold mt-8 text-center">
